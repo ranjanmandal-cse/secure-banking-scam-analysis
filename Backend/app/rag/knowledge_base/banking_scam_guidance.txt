@@ -1,0 +1,41 @@
+BANKING SCAM INVESTIGATION GUIDANCE
+
+SECTION 1: OTP AND CREDENTIAL REQUESTS
+
+Banks and legitimate financial institutions generally do not ask customers to disclose OTPs, PINs, CVVs, passwords, or other authentication credentials through unsolicited messages or calls.
+
+Requests for OTPs or authentication credentials should be treated as suspicious indicators during an investigation.
+
+SECTION 2: URGENT ACCOUNT THREATS
+
+Scam messages frequently use urgency or threats such as account suspension, account blocking, immediate verification, or limited-time deadlines.
+
+Urgent language combined with requests for sensitive information can increase the risk associated with an evidence item.
+
+SECTION 3: SUSPICIOUS LINKS
+
+Investigators should examine URLs found in suspicious messages.
+
+Warning indicators can include unfamiliar domains, misleading domain names, URL shorteners, requests to verify accounts, or links that direct users to login or verification pages.
+
+The presence of a URL alone does not prove that a message is fraudulent. URL indicators should be considered together with other evidence.
+
+SECTION 4: PAYMENT REQUESTS
+
+Requests to transfer money, send funds to unfamiliar accounts, or make payments under unusual circumstances should be investigated carefully.
+
+Payment-related evidence should be correlated with transaction details, recipient information, timestamps, and other available evidence.
+
+SECTION 5: SOCIAL ENGINEERING
+
+Social engineering attacks may impersonate banks, government agencies, delivery services, employers, or other trusted organizations.
+
+Common techniques include urgency, authority claims, fear of account loss, requests for confidential information, and instructions to follow unfamiliar links.
+
+SECTION 6: INVESTIGATOR REVIEW
+
+Automated risk analysis should support investigators rather than replace human review.
+
+Risk indicators should be traceable to evidence observed in the case.
+
+Investigators should review the original evidence, extracted entities, deterministic risk indicators, and relevant supporting guidance before making a final case decision.
