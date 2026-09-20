@@ -46,9 +46,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-case_analyzer = CaseAnalyzer()
-
-
 class AnalyzeRequest(BaseModel):
     text: str
 
