@@ -15,7 +15,7 @@ class CaseAnalyzer:
 
         self.risk_engine = RiskEngine()
 
-        self.rag_retriever = RAGRetriever()
+        self.rag_retriever = None
 
         self.llm_service = LLMService()
 
@@ -34,6 +34,9 @@ class CaseAnalyzer:
         risk_analysis = self.risk_engine.analyze(
             extracted_text
         )
+
+        if self.rag_retriever is None:
+            self.rag_retriever = RAGRetriever()
 
         rag_results = self.rag_retriever.search(
             extracted_text,
@@ -76,6 +79,9 @@ class CaseAnalyzer:
         risk_analysis = self.risk_engine.analyze(
             extracted_text
         )
+
+        if self.rag_retriever is None:
+            self.rag_retriever = RAGRetriever()
 
         rag_results = self.rag_retriever.search(
             extracted_text,

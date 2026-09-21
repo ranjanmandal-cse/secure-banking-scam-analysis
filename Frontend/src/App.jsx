@@ -71,7 +71,7 @@ function App() {
   const [selectedCase, setSelectedCase] = useState(null);
   const [caseLoading, setCaseLoading] = useState(false);
   const [caseStatusMessage, setCaseStatusMessage] = useState("");
-  const [caseType, setCaseType] = useState("text");
+  const [caseType, setCaseType] = useState(null);
   const [riskFilter, setRiskFilter] = useState("ALL");
 
   const loadCases = async () => {
@@ -574,7 +574,8 @@ const filteredCases = cases
   .filter(
   (item) =>
     caseType === "all" ||
-    item.source_type?.toLowerCase() === caseType
+caseType === null ||
+item.source_type?.toLowerCase() === caseType
 )
   .filter(
     (item) =>
@@ -1712,7 +1713,11 @@ ref={index === chatMessages.length - 1 ? chatEndRef : null}
 
   <div className="cases-list">
 
-    {cases.length === 0 ? (
+    {caseType === null ? (
+  <p className="no-cases">
+    Select a category to view cases.
+  </p>
+) : cases.length === 0 ? (
 
       <p className="no-cases">
         No investigation cases found.

@@ -14,6 +14,7 @@ from app.database.models import InvestigationCase
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.services.case_analyzer import CaseAnalyzer
+case_analyzer = CaseAnalyzer()
 from app.api.routes.upload import router as upload_router
 from app.api.routes.cases import router as cases_router
 from app.api.routes.dashboard import router as dashboard_router
