@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "/api",
+  baseURL: "https://wife-regular-lottery-journalists.trycloudflare.com",
 });
 
 export const analyzeText = async (text) => {
