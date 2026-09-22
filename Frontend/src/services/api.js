@@ -5,7 +5,7 @@ const API = axios.create({
 });
 
 export const analyzeText = async (text) => {
-  const response = await API.post("/analyze", {
+  const response = await API.post("/upload/analyze", {
     text: text,
   });
 
