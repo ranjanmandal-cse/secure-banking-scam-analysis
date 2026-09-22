@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://65.2.184.10:8000",
+  baseURL: "/api",
 });
 
 export const analyzeText = async (text) => {
